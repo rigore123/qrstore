@@ -1,0 +1,133 @@
+mysql80
+root
+rigo100
+
+username
+usremail
+usrpassword2
+
+
+/*echo $_POST['funcion'];*/
+
+
+/* 
+if($_POST['funcion'] == 'valusr'){
+     $i=0;
+    $usuario = mysqli_query($conn, "SELECT idUsuario, nombreUsuario FROM usuarios WHERE nombreUsuario = '" .$_POST['username']. "'");
+    while($consulta = mysqli_fetch_array($usuario))
+    {
+        //echo $consulta['nombreUsuario'];
+        $i++;
+    }
+    if($i>0){
+        //VALIDACION DE PASSWORD
+        $usuario = mysqli_query($conn, "SELECT nombreUsuario , usrpassword 
+                                        FROM usuarios 
+                                        WHERE nombreUsuario = '" .$_POST['username']. "'
+                                        AND usrpassword= '" .$_POST['usrpassword']. "'");
+
+    echo "HAYUSER";
+// See the password_hash() example to see where this came from.
+$hash = '$2y$07$BCryptRequires22Chrcte/VlQH0piJtjXl.0t1XkA8pw9dMXTpOq';
+
+if (password_verify('rasmuslerdorf', $hash)) {
+    echo 'Password is valid!';
+} else {
+    echo 'Invalid password.';
+}
+    }else{
+    echo "NOHAYUSER";
+    }
+
+    // Close connection
+    mysqli_close($conn);
+}
+*/
+    /*     if($var == 'submitregist'){
+        $i=0;
+     
+     
+     
+     
+        $usuario = mysqli_query($conn, "SELECT idUsuario, nombreUsuario FROM usuarios WHERE nombreUsuario = '" .$username. "'");
+            while($consulta = mysqli_fetch_array($usuario))
+            {
+                    $i++;
+            }
+        
+            if($i>0)   {
+            echo "HAYUSER";
+        }else{ */
+        
+        // username
+        // usremail
+        // usrpassword2   
+        // idUsuario nombreUsuario	userPassword emailUsr createUsr	fechaCreacion ultimaSesion
+     
+        // usremail
+        // usrpassword2   
+
+
+        /* $stmt = $mysqli->prepare("INSERT INTO usuarios (idUsuario, nombreUsuario,userPassword, emailUsr, createUsr,fechaCreacion, ultimaSesion)
+        VALUES (?, ?, ?, ?, ?)");
+        $stmt->bind_param('sssdi', $_POST['peliculaName'], 
+        $_POST['peliculaDescription'],
+        $_POST['peliculaImage'],
+        $_POST['peliculaPrice'],
+        $_POST['peliculaReview']);
+        $stmt->execute(); 
+        $stmt->close(); */
+
+
+
+        //  mysqli_execute_query($conn,$sSql);
+
+
+
+
+        // Close connection
+      //  mysqli_close($conn);
+       //     }
+       // }
+    
+//*/
+
+
+/* 
+ function checkPassword($pwd, &$errors) {
+    $errors_init = $errors;
+    
+    if (strlen($pwd) < 8) {
+    $errors[] = "Password too short!";
+    }
+    
+    if (!preg_match("#[0-9]+#", $pwd)) {
+    $errors[] = "Password must include at least one number!";
+    }
+    
+    if (!preg_match("#[a-zA-Z]+#", $pwd)) {
+    $errors[] = "Password must include at least one letter!";
+    }
+    
+    return ($errors == $errors_init);
+    } */
+
+
+?>
+
+80h
+250 w
+
+
+
+
+
+
+vacuo, trémula sensación oprimió la virtú del sin 
+dimensión y fuente de toda potestad,
+sin dirección emprendió la cuita del fulgor 
+delicado de su vibración mas eterna y dio vida
+y sentido de valor a su deseo, el LOGOS y con el, el fugaz sueño del 
+que formamos parte todos en su sacra esencia.
+
+
